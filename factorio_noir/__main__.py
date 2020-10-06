@@ -155,7 +155,7 @@ def gen_pack_files(pack_dir, source_dirs, target_dir, pack_name, pack_version, i
                     if absolute_sprite_path in marked_for_processing:
                         click.echo()
                         click.secho(
-                            f"The sprite {sprite_path} was included in processing "
+                            f"The sprite {absolute_sprite_path} was included in processing "
                             f"from more than one category: ",
                             fg="red",
                         )
